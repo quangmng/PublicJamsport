@@ -69,6 +69,7 @@
 		C5721E832C884B4000B7C40B = {
 			isa = PBXGroup;
 			children = (
+				C52C72CD2C9A6732004A4B56 /* README.md */,
 				C5721E8E2C884B4000B7C40B /* PublicJamsport */,
 				C5721E8D2C884B4000B7C40B /* Products */,
 			);
@@ -85,7 +86,6 @@
 		C5721E8E2C884B4000B7C40B /* PublicJamsport */ = {
 			isa = PBXGroup;
 			children = (
-				C52C72CD2C9A6732004A4B56 /* README.md */,
 				C58B162F2C97EFB1007A87E4 /* Resources */,
 				C58B16232C910ADB007A87E4 /* Models */,
 				C58B16222C910AD0007A87E4 /* ViewModels */,
