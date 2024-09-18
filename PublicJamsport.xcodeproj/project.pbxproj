@@ -7,24 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C52C72C12C9A543C004A4B56 /* StationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52C72C02C9A542C004A4B56 /* StationViewModel.swift */; };
+		C52C72CC2C9A64A9004A4B56 /* stationsStops.json in Resources */ = {isa = PBXBuildFile; fileRef = C52C72CB2C9A64A9004A4B56 /* stationsStops.json */; };
+		C52C72CE2C9A673B004A4B56 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C52C72CD2C9A6732004A4B56 /* README.md */; };
+		C52C72D02C9AC813004A4B56 /* GradientOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52C72CF2C9AC804004A4B56 /* GradientOverlay.swift */; };
+		C52C72D22C9AFFAE004A4B56 /* SavedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52C72D12C9AFFAE004A4B56 /* SavedListView.swift */; };
+		C52C72D42C9B0075004A4B56 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52C72D32C9B0075004A4B56 /* SavedView.swift */; };
 		C5721E902C884B4000B7C40B /* PublicJamsportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5721E8F2C884B4000B7C40B /* PublicJamsportApp.swift */; };
 		C5721E922C884B4000B7C40B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5721E912C884B4000B7C40B /* ContentView.swift */; };
 		C5721E942C884B4200B7C40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5721E932C884B4200B7C40B /* Assets.xcassets */; };
 		C5721E972C884B4200B7C40B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5721E962C884B4200B7C40B /* Preview Assets.xcassets */; };
 		C5721E992C884B4200B7C40B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5721E982C884B4200B7C40B /* Persistence.swift */; };
 		C5721E9C2C884B4200B7C40B /* PublicJamsport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5721E9A2C884B4200B7C40B /* PublicJamsport.xcdatamodeld */; };
-		C58B162A2C97E40C007A87E4 /* StopsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B16292C97E40C007A87E4 /* StopsViewModel.swift */; };
-		C58B162C2C97E49F007A87E4 /* Stops.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B162B2C97E49F007A87E4 /* Stops.swift */; };
-		C58B162E2C97E56D007A87E4 /* Departures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B162D2C97E56D007A87E4 /* Departures.swift */; };
-		C58B16312C97EFC6007A87E4 /* stationsStops.json in Resources */ = {isa = PBXBuildFile; fileRef = C58B16302C97EFC6007A87E4 /* stationsStops.json */; };
 		C58B16332C980B04007A87E4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B16322C980B04007A87E4 /* MapView.swift */; };
 		C58B16352C984DFA007A87E4 /* DetailedStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B16342C984DFA007A87E4 /* DetailedStopView.swift */; };
-		C58B16372C9857B8007A87E4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B16362C9857B8007A87E4 /* HomeView.swift */; };
 		C58B16392C985842007A87E4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B16382C985842007A87E4 /* SearchView.swift */; };
 		C58B163B2C985C14007A87E4 /* JamsportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B163A2C985C14007A87E4 /* JamsportView.swift */; };
+		C58B16402C99C2C0007A87E4 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B163F2C99C2C0007A87E4 /* Station.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C52C72C02C9A542C004A4B56 /* StationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewModel.swift; sourceTree = "<group>"; };
+		C52C72CB2C9A64A9004A4B56 /* stationsStops.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stationsStops.json; sourceTree = "<group>"; };
+		C52C72CD2C9A6732004A4B56 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C52C72CF2C9AC804004A4B56 /* GradientOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientOverlay.swift; sourceTree = "<group>"; };
+		C52C72D12C9AFFAE004A4B56 /* SavedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedListView.swift; sourceTree = "<group>"; };
+		C52C72D32C9B0075004A4B56 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
 		C5721E8C2C884B4000B7C40B /* PublicJamsport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublicJamsport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5721E8F2C884B4000B7C40B /* PublicJamsportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicJamsportApp.swift; sourceTree = "<group>"; };
 		C5721E912C884B4000B7C40B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,15 +40,11 @@
 		C5721E962C884B4200B7C40B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5721E982C884B4200B7C40B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C5721E9B2C884B4200B7C40B /* PublicJamsport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PublicJamsport.xcdatamodel; sourceTree = "<group>"; };
-		C58B16292C97E40C007A87E4 /* StopsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopsViewModel.swift; sourceTree = "<group>"; };
-		C58B162B2C97E49F007A87E4 /* Stops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stops.swift; sourceTree = "<group>"; };
-		C58B162D2C97E56D007A87E4 /* Departures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departures.swift; sourceTree = "<group>"; };
-		C58B16302C97EFC6007A87E4 /* stationsStops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = stationsStops.json; path = PublicJamsport/stationsStops.json; sourceTree = SOURCE_ROOT; };
 		C58B16322C980B04007A87E4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C58B16342C984DFA007A87E4 /* DetailedStopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedStopView.swift; sourceTree = "<group>"; };
-		C58B16362C9857B8007A87E4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C58B16382C985842007A87E4 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		C58B163A2C985C14007A87E4 /* JamsportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamsportView.swift; sourceTree = "<group>"; };
+		C58B163F2C99C2C0007A87E4 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C52C72C42C9A62B2004A4B56 /* DataHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C5721E982C884B4200B7C40B /* Persistence.swift */,
+			);
+			path = DataHelper;
+			sourceTree = "<group>";
+		};
 		C5721E832C884B4000B7C40B = {
 			isa = PBXGroup;
 			children = (
@@ -73,13 +85,14 @@
 		C5721E8E2C884B4000B7C40B /* PublicJamsport */ = {
 			isa = PBXGroup;
 			children = (
+				C52C72CD2C9A6732004A4B56 /* README.md */,
 				C58B162F2C97EFB1007A87E4 /* Resources */,
 				C58B16232C910ADB007A87E4 /* Models */,
 				C58B16222C910AD0007A87E4 /* ViewModels */,
-				C58B16212C910AC6007A87E4 /* Views */,
 				C5721E8F2C884B4000B7C40B /* PublicJamsportApp.swift */,
+				C58B16212C910AC6007A87E4 /* Views */,
 				C5721E932C884B4200B7C40B /* Assets.xcassets */,
-				C5721E982C884B4200B7C40B /* Persistence.swift */,
+				C52C72C42C9A62B2004A4B56 /* DataHelper */,
 				C5721E9A2C884B4200B7C40B /* PublicJamsport.xcdatamodeld */,
 				C5721E952C884B4200B7C40B /* Preview Content */,
 			);
@@ -97,12 +110,14 @@
 		C58B16212C910AC6007A87E4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C58B163C2C99B857007A87E4 /* Components */,
 				C5721E912C884B4000B7C40B /* ContentView.swift */,
 				C58B16322C980B04007A87E4 /* MapView.swift */,
 				C58B16342C984DFA007A87E4 /* DetailedStopView.swift */,
-				C58B16362C9857B8007A87E4 /* HomeView.swift */,
 				C58B16382C985842007A87E4 /* SearchView.swift */,
 				C58B163A2C985C14007A87E4 /* JamsportView.swift */,
+				C52C72D12C9AFFAE004A4B56 /* SavedListView.swift */,
+				C52C72D32C9B0075004A4B56 /* SavedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,7 +125,7 @@
 		C58B16222C910AD0007A87E4 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				C58B16292C97E40C007A87E4 /* StopsViewModel.swift */,
+				C52C72C02C9A542C004A4B56 /* StationViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -118,8 +133,7 @@
 		C58B16232C910ADB007A87E4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C58B162B2C97E49F007A87E4 /* Stops.swift */,
-				C58B162D2C97E56D007A87E4 /* Departures.swift */,
+				C58B163F2C99C2C0007A87E4 /* Station.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -127,9 +141,17 @@
 		C58B162F2C97EFB1007A87E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C58B16302C97EFC6007A87E4 /* stationsStops.json */,
+				C52C72CB2C9A64A9004A4B56 /* stationsStops.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		C58B163C2C99B857007A87E4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C52C72CF2C9AC804004A4B56 /* GradientOverlay.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5721E972C884B4200B7C40B /* Preview Assets.xcassets in Resources */,
-				C58B16312C97EFC6007A87E4 /* stationsStops.json in Resources */,
+				C52C72CC2C9A64A9004A4B56 /* stationsStops.json in Resources */,
+				C52C72CE2C9A673B004A4B56 /* README.md in Resources */,
 				C5721E942C884B4200B7C40B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,15 +229,16 @@
 				C58B163B2C985C14007A87E4 /* JamsportView.swift in Sources */,
 				C5721E992C884B4200B7C40B /* Persistence.swift in Sources */,
 				C58B16332C980B04007A87E4 /* MapView.swift in Sources */,
-				C58B162A2C97E40C007A87E4 /* StopsViewModel.swift in Sources */,
-				C58B16372C9857B8007A87E4 /* HomeView.swift in Sources */,
+				C58B16402C99C2C0007A87E4 /* Station.swift in Sources */,
 				C5721E922C884B4000B7C40B /* ContentView.swift in Sources */,
-				C58B162C2C97E49F007A87E4 /* Stops.swift in Sources */,
 				C5721E9C2C884B4200B7C40B /* PublicJamsport.xcdatamodeld in Sources */,
+				C52C72D22C9AFFAE004A4B56 /* SavedListView.swift in Sources */,
+				C52C72D02C9AC813004A4B56 /* GradientOverlay.swift in Sources */,
 				C5721E902C884B4000B7C40B /* PublicJamsportApp.swift in Sources */,
 				C58B16352C984DFA007A87E4 /* DetailedStopView.swift in Sources */,
-				C58B162E2C97E56D007A87E4 /* Departures.swift in Sources */,
+				C52C72D42C9B0075004A4B56 /* SavedView.swift in Sources */,
 				C58B16392C985842007A87E4 /* SearchView.swift in Sources */,
+				C52C72C12C9A543C004A4B56 /* StationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,8 +378,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,8 +407,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
